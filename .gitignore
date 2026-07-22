@@ -1,0 +1,46 @@
+# Python virtual environments
+venv/
+backend/venv/
+.venv/
+
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Environment files
+.env
+backend/.env
+.env.*
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and runtime files
+*.log
+backend/logs/
+
+# Data and generated artifacts
+backend/data/
+backend/uploads/
+backend/faiss_index/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# OS files
+.DS_Store
+Thumbs.db
